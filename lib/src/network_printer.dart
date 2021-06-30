@@ -168,7 +168,7 @@ class NetworkPrinter {
   }
 
   void hr({String ch = '-', int len, int linesAfter = 0}) {
-    _socket.add(_generator.hr(ch: ch, linesAfter: linesAfter));
+    _socket.add(_generator.hr(ch: ch, linesAfter: linesAfter, len: len));
   }
 
   void textEncoded(
