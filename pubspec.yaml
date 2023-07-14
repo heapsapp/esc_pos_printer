@@ -5,16 +5,17 @@ homepage: https://github.com/andrey-ushakov/esc_pos_printer
 publish_to: 'none'
 
 environment:
-  sdk: ">=2.13.0 <3.0.0"
+  sdk: ">=2.16.2 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  #esc_pos_utils: ^1.0.0
   esc_pos_utils:
-    git:
-      url: git@github.com:heapsapp/esc_pos_utils.git
-      ref: feature/null-safety
+    path: ../esc_pos_utils
+#  esc_pos_utils:
+#    git:
+#      url: git@github.com:heapsapp/esc_pos_utils.git
+#      ref: feature/null-safety
   charset_converter: ^2.0.0
   image: ^3.0.2
 

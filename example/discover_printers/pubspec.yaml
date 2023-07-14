@@ -4,31 +4,32 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.16.2 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^0.1.2
-  wifi: ^0.1.5
-  ping_discover_network: ^0.2.0+1
-  image: ^2.1.4
+  cupertino_icons: ^1.0.3
+  network_info_plus: ^4.0.1
+  image: ^3.0.2
   esc_pos_printer:
     path: ../../
-  intl: ^0.16.1
-  qr_flutter: ^3.2.0
-  path_provider: ^1.6.5
+  intl: ^0.18.0
+  qr_flutter: ^4.1.0
+  path_provider: ^2.0.15
 #  esc_pos_utils: ^1.0.0
 #  esc_pos_utils:
 #    path: ../../../esc_pos_utils
-  charset_converter: ^1.0.3
+  charset_converter: ^2.1.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  build_runner: ^2.1.1
 
 flutter:
   uses-material-design: true
   assets:
     - assets/logo.png
     - assets/rabbit_black.jpg
+    - assets/ic_clock.png
