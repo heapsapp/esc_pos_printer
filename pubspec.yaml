@@ -10,14 +10,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  esc_pos_utils:
-    path: ../esc_pos_utils
 #  esc_pos_utils:
-#    git:
-#      url: git@github.com:heapsapp/esc_pos_utils.git
-#      ref: feature/null-safety
-  charset_converter: ^2.0.0
-  image: ^3.0.2
+#    path: ../esc_pos_utils
+  esc_pos_utils:
+    git:
+      url: git@github.com:heapsapp/esc_pos_utils.git
+      ref: feature/flutter-3
+  charset_converter: ^2.1.1
+  image: ^4.0.17
 
 dev_dependencies:
   flutter_test:

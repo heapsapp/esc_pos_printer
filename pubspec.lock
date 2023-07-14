@@ -37,10 +37,10 @@ packages:
     dependency: "direct main"
     description:
       name: charset_converter
-      sha256: a05e3efe8b76146cdd13606a57c7b559b624d924384f1ad3f0cff303c03c8be1
+      sha256: e4827b2d623ab75c2b6767d69e03485ea5bc894db6f6bdcb2ffeda58446bbe26
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.0"
+    version: "2.1.1"
   clock:
     dependency: transitive
     description:
@@ -76,9 +76,11 @@ packages:
   esc_pos_utils:
     dependency: "direct main"
     description:
-      path: "../esc_pos_utils"
-      relative: true
-    source: path
+      path: "."
+      ref: "feature/flutter-3"
+      resolved-ref: "03f766d28e192bce41a4a1676602f3a1331b8465"
+      url: "git@github.com:heapsapp/esc_pos_utils.git"
+    source: git
     version: "2.0.0"
   fake_async:
     dependency: transitive
@@ -126,10 +128,10 @@ packages:
     dependency: "direct main"
     description:
       name: image
-      sha256: "3e5c9ef82c0af7823be4cb5294a829a6e0548a6f6b4e261e6386509a9e03bcab"
+      sha256: a72242c9a0ffb65d03de1b7113bc4e189686fc07c7147b8b41811d0dd0e0d9bf
       url: "https://pub.dev"
     source: hosted
-    version: "3.0.2"
+    version: "4.0.17"
   js:
     dependency: transitive
     description:
@@ -174,10 +176,10 @@ packages:
     dependency: transitive
     description:
       name: petitparser
-      sha256: "85e8f8b118afcccf948a9844d199e56260117400bd9b9982d87bf1d62ebc1690"
+      sha256: cb3798bef7fc021ac45b308f4b51208a152792445cce0448c9a4ba5879dd8750
       url: "https://pub.dev"
     source: hosted
-    version: "4.1.0"
+    version: "5.4.0"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -251,10 +253,10 @@ packages:
     dependency: transitive
     description:
       name: xml
-      sha256: "30498604ab00fc50286f8aaf7e077c496550b16ed2f325c14152244882314f03"
+      sha256: "5bc72e1e45e941d825fd7468b9b4cc3b9327942649aeb6fc5cdbf135f0a86e84"
       url: "https://pub.dev"
     source: hosted
-    version: "5.1.2"
+    version: "6.3.0"
 sdks:
   dart: ">=3.0.0-0 <4.0.0"
-  flutter: ">=1.10.0"
+  flutter: ">=1.17.0"
