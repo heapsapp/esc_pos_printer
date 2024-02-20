@@ -358,5 +358,16 @@ class NetworkPrinter {
       );
     });
   }
+
+  Future<void> printBytes(List<int> bytes) async {
+    _socket.add(bytes);
+    await enqueueWithDelay(() {});
+  }
+
+  Future<void> printBytesAsync(List<int> bytes) async {
+    await enqueueWithDelay(() {
+      printBytes(bytes);
+    });
+  }
 // ************************ (end) Printer Commands ************************
 }
