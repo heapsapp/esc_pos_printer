@@ -15,7 +15,7 @@ dependencies:
   esc_pos_utils:
     git:
       url: git@github.com:heapsapp/esc_pos_utils.git
-      ref: feature/flutter-3
+      ref: feature/custom-printer
   charset_converter: ^2.1.1
   image: ^4.0.17
 

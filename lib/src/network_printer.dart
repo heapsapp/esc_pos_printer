@@ -360,13 +360,24 @@ class NetworkPrinter {
   }
 
   Future<void> printBytes(List<int> bytes) async {
-    _socket.add(bytes);
-    await enqueueWithDelay(() {});
+    await enqueueWithDelay(() {
+      _socket.add(bytes);
+    });
   }
 
   Future<void> printBytesAsync(List<int> bytes) async {
     await enqueueWithDelay(() {
       printBytes(bytes);
+    });
+  }
+
+  void present() {
+    _socket.add(_generator.present());
+  }
+
+  Future<void> presentAsync({PosDrawer pin = PosDrawer.pin2}) async {
+    await enqueueWithDelay(() {
+      present();
     });
   }
 // ************************ (end) Printer Commands ************************
